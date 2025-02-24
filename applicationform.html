@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>application form</title>
+</head>
+<body bgcolor="pink">
+<h2 align="center"><b>COLLEGE APPLICATION FORM</b></h2><br>
+Please fill the form if you want to attend our institution.Thank You!
+<form action="login.html" method="post">
+<b>Name : </b><br>
+<select name="title" placeholder="title">
+	<option>Ms</option>
+	<option>Mr</option>
+	<option>Mrs</option>
+</select>
+<input type="text" placeholder="First" required>
+<input type="text" placeholder="Second">
+<input type="text" placeholder="Third">
+<br><br><b>Date of birth : </b><br>
+<input type="date" placeholder="dd/mm/yyyy" required>
+<br><br><b>Gender : </b><br>
+<input type="radio" name="gender">Male&nbsp;&nbsp;<input type="radio" name="gender">Female&nbsp;&nbsp;<input type="radio" name="gender">Other
+<br><br><b>Phone Number : </b></br>
+<input type="tel" placeholder="### ### ####" pattern="/d{3}+/d{3}+/d{4}">
+<br><br><b>Home Address : </b></br>
+<textarea rows="5" cols="100">Address</textarea></b>
+<br><br><b>Email : </b><br>
+<input type="email" placeholder="abc@gmail.com">
+<br><br><b>Please enter the courses you want to attend : </b><br><br>
+<input type="checkbox" name="courses" value=course#1">Course#1<br>
+<input type="checkbox" name="courses" value=course#2">Course#2<br>
+<input type="checkbox" name="courses" value=course#3">Course#3<br>
+<input type="checkbox" name="courses" value=course#4">Course#4<br>
+<input type="checkbox" name="courses" value=course#5">Course#5<br>
+<input type="checkbox" name="courses" value=course#6">Course#6<br>
+<br>if you are under 18, please complete the following section : <br>
+<br><b>Name of parent or gurdian : </b><br>
+<input type="text" placeholder="First">
+<input type="text" placeholder="Second">
+<br><br><b>Home Address (If different from yours) : </b><br>
+<textarea rows="5" cols="100">Address</textarea><br>
+<input type="Submit" align="left">
+<input type="Reset" align="right">
+</form>
+</body>
+</html>

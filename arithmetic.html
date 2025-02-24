@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>arithmetic</title>
+<script type=text/javascript>
+	var x,y,rs,ch;
+	x=window.prompt("Enter a number : ");
+	y=window.prompt("Enter a number : ");
+	x=parseInt(x);
+	y=parseInt(y);
+	window.alert("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulous");
+	ch=window.prompt("Enter your choice : ");
+	switch(ch)
+	{
+		case "1" : rs=add(x,y);
+				break;
+		case "2" : rs=sub(x,y);
+				break;
+		case "3" : rs=mul(x,y);
+				break;
+		case "4" : rs=div(x,y);
+				break;
+		case "5" : rs=mod(x,y);
+				break;
+		default : window.alert("INVALID CHOICE!");
+	}
+	window.alert("Result : "+rs);
+	function add(x,y)
+	{
+		return(x+y);
+	}	
+	function sub(x,y)
+	{
+		return(x-y);
+	}	
+	function mul(x,y)
+	{
+		return(x*y);
+	}	
+	function div(x,y)
+	{
+		return(x/y);
+	}	
+	function mod(x,y)
+	{
+		return(x%y);
+	}	
+</script>
+</head>
+<body>
+</body>
+</html>
